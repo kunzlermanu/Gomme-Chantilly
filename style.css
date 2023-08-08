@@ -16,6 +16,18 @@ footer{background-color: rgb(22, 22, 22);
         color: rgb(240, 248, 248);
         text-align: center;
         padding: 2px;
+}
+.container{
+    display: flex;
+    border-style:solid;
+    border-style:black;
+}
+.texto{
+    flex: 1;
+    padding:5%;
 
-
+}
+.imagem{
+    flex: 2;
+    text-align:left;
 }
