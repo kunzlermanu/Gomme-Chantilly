@@ -1,71 +1,71 @@
 *{
-margin: 5px;
-}
-body{
-    background-color: rgb(141, 219, 250);
-    font-family:'Didot';
-    font-size: 18px;
-}
-img{width: 550px;
-    text-align: center;
-    max-width: 100%;
-    margin: 0 auto ;
-    display: block;
-}
-header{
-    /* cor de fundo*/
-    background-color: rgb(22, 22, 22);
-    /*cor de texto*/
-    color: rgb(240, 248, 248);
-    /*alinhamento do texto*/
-    text-align: center;
-    /*preenchimento*/
-    padding: 5px; 
-}
-footer{background-color: rgb(22, 22, 22);
-        color: rgb(240, 248, 248);
+    margin: 5px;
+    }
+    body{
+        background-color: rgb(141, 219, 250);
+        font-family:'Didot';
+        font-size: 18px;
+    }
+    img{width: 550px;
         text-align: center;
-        padding: 2px;
-}
-.container{
-    display: flex;
-    border-style:solid;
-    border-style:black;
-}
-.texto{
-    flex: 1;
-    padding:5%;
-
-}
-.imagem{
-    flex: 2;
-    text-align:left;
-}
-a:hover{
-    color: rgb(245, 36, 36);
-}
-a {
-transition: color 0.3s ease;
-}
-nav{
-    background-color: rgb(112, 192, 238);
-    text-align: center;
-    margin: 0px;
-}
-nav ul {
-    list-style: none;
-    padding: 0;
-}
-nav li{
-display: inline;
-margin-right: 90px;
-}
-nav a {
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-    font-weight: bold;
-    font-size: 25px;
-}
-nav a:hover{
-    color: black;
-}
+        max-width: 100%;
+        margin: 0 auto ;
+        display: block;
+    }
+    header{
+        /* cor de fundo*/
+        background-color: rgb(22, 22, 22);
+        /*cor de texto*/
+        color: rgb(240, 248, 248);
+        /*alinhamento do texto*/
+        text-align: center;
+        /*preenchimento*/
+        padding: 5px; 
+    }
+    footer{background-color: rgb(22, 22, 22);
+            color: rgb(240, 248, 248);
+            text-align: center;
+            padding: 2px;
+    }
+    .container{
+        display: flex;
+        border-style:solid;
+        border-style:black;
+    }
+    .texto{
+        flex: 1;
+        padding:5%;
+    
+    }
+    .imagem{
+        flex: 2;
+        text-align:left;
+    }
+    a:hover{
+        color: rgb(245, 36, 36);
+    }
+    a {
+    transition: color 0.3s ease;
+    }
+    nav{
+        background-color: rgb(112, 192, 238);
+        text-align: center;
+        margin: 0px;
+    }
+    nav ul {
+        list-style: none;
+        padding: 0;
+    }
+    nav li{
+    display: inline;
+    margin-right: 90px;
+    }
+    nav a {
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        font-size: 25px;
+    }
+    nav a:hover{
+        color: black;
+    }
