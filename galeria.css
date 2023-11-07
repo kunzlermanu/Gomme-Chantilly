@@ -13,3 +13,32 @@ body{
     display: flex;
     width: 90vw;
 }
+.panel{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80vh;
+    border-radius: 50px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    flex: 0.5;
+    margin: 10px;
+    position: relative;
+    -webkit-transition: all 700ms ease-in;
+}
+.panel h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+    position: absolute;
+    bottom: 30px;
+    left: 20px;
+    margin: 0;
+    opacity: 5;
+}
+.panel.active {
+    flex: 4;
+}
+.panel.active h3{
+    opacity: 1;
+    transition: opacity 0.3s ease-in 0.4s;
+}
